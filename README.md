@@ -1,7 +1,4 @@
 # Frontend Mentor - Interactive rating component
-
-![Design preview for the Interactive rating component coding challenge]
-
 ## Welcome! 👋
 
 Thanks for checking out this front-end coding challenge.
