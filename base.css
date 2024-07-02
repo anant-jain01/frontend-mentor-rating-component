@@ -1,0 +1,38 @@
+:root{
+    --clr-btn:hsl(25, 97%, 53%);
+    --clr-heading:hsl(0, 0%, 100%);
+    --clr-subheading:hsl(217, 12%, 63%);
+    --clr-btn-text:hsl(216, 12%, 54%);
+    --clr-bg:hsl(216, 12%, 8%);
+    --clr-main:hsl(215, 22%, 15%);
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Overpass", sans-serif;
+    font-size: 15px;
+}
+body{
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+    vertical-align: middle;
+    background-color: var(--clr-bg);
+}
+main{
+    background-color: var(--clr-main);
+    width: 350px;
+    height: 415px;
+    border-radius: 20px;
+    padding: 30px;
+}
+.heading{
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--clr-heading);
+}
+.subheading{
+    color: var(--clr-subheading);
+}
